@@ -1,0 +1,22 @@
+{
+  "name": "@reactivestack/devtools-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1",
+    "@reactivestack/vannila": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.3",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
